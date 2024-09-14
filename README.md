@@ -76,7 +76,9 @@ void loop(){
 }
 ```
 
-2. ESP8266 Code (esp8266-code.ino)
+### 2. ESP8266 Code (esp8266-code.ino)
+
+#### Code
 
 ```cpp
 // Code NodeMCU ESP8266 V.3 Lolin ShieldBase
@@ -176,14 +178,14 @@ Pin Definitions
 - soilPin - Analog pin A0, connected to the soil moisture sensor.
 - rainPin - Digital pin D4, connected to the rain sensor.
 
-## WiFi and ThingSpeak Configuration
+### WiFi and ThingSpeak Configuration
 
 - ssid - Your WiFi network name.
 - password - Your WiFi network password.
 - myChannelNumber - ThingSpeak channel number.
 - myWriteAPIKey - ThingSpeak write API key.
 
-## Functionality
+### Functionality
 
 - Connects to WiFi and ThingSpeak.
 - Reads temperature and humidity from the DHT22 sensor.
@@ -191,6 +193,8 @@ Pin Definitions
 - Measures distance using the HC-SR04 sensor.
 - Reads rain sensor data.
 - Sends the collected data to ThingSpeak every 15 seconds for monitoring.
+
+<hr/>
 
 ## How to Use
 
@@ -213,6 +217,7 @@ Pin Definitions
    - Open the ThingSpeak channel to monitor the sensor data in real-time.
    - Observe the Arduino serial monitor for soil moisture readings and water pump status.
 
+<hr/>
 ## Notes
 
 - Ensure your WiFi and ThingSpeak credentials are correctly set in the ESP8266 code.
